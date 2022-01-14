@@ -23,7 +23,7 @@ Bonus Functionality
 
 - User cannot select a date in the past, if they try to it will default to the next deliverable date from today.
 
-If I had more time to work on the task I would have liked to try and match the given design styling more closely, and also add an animatation to the opening and closing of the modal. I would also have liked to make everything fully responsive, however I chose to focus on the app's functionality as a priority within the time allocated.
+If I had more time to work on the task I would have liked to try and match the given design styling more closely, and also add a transition animation to the opening and closing of the modal. I would also have liked to make everything fully responsive, however I chose to focus on the app's functionality as a priority within the time allocated.
 
 Local Deployment:
 
