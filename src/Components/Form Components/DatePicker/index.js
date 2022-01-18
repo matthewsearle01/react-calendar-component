@@ -14,7 +14,10 @@ const DatePicker = (props) => {
   const checkTodaysDateIsValid = (today) => {
     // if today is a Tues or Sat it sets the date to the next available delivery day (+1)
     if (new Date().getDay() === 2 || new Date().getDay() === 6) {
-      let dateString = new Date().toDateString() + 1;
+      let thisDay = new Date();
+      let nextDay = new Date();
+      nextDay.setDate(thisDay.getDate() + 1);
+      let dateString = nextDay.toDateString();
       dateString = dateString.slice(0, 10);
       props.setInput({
         ...props.input,
