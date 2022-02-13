@@ -1,4 +1,4 @@
-# Calendar Component
+# react-calendar-component
 
 This app is a React based Date Picker Component, utilising React Hooks, SASS, and the react-day-picker library.
 
