@@ -4,7 +4,7 @@ This app is a React based Date Picker Component, utilising React Hooks, SASS, an
 
 The live app can be found here:
 
-https://butternut-calendar-task.herokuapp.com/
+https://react-calendar-component.herokuapp.com/
 
 Functionality:
 
