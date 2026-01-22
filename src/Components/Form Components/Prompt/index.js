@@ -22,7 +22,7 @@ const Prompt = (props) => {
             <div className="selected-day">
               <p>{props.input.DateString}</p>
               <div className="van-div">
-                <img className="van" src={van} width="20" />
+                <img className="van" src={van} width="20" alt="Delivery van" />
                 <p>Earliest delivery</p>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Prompt = (props) => {
                 <p>
                   <u>Change</u>
                 </p>
-                <img src={arrow} width="10" />
+                <img src={arrow} width="10" alt="" />
               </div>
             </button>
           </div>

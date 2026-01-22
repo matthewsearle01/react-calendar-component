@@ -57,6 +57,7 @@ const DatePicker = (props) => {
       checkTodaysDateIsValid(today);
     }
     return () => (mounted = false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!props.displayModal) {
